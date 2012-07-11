@@ -19,12 +19,13 @@ import org.msgpack.annotation.Message;
 @Message
 public class FileResponse {
 
-	public String seq;
-	public String id;
-	public String date;
-	public String fileName;
-	public String method;
-	public int statusCode;
-	public int chunkSize;
-	public long fileLength;
+    public String seq;
+    public String id;
+    public String date;
+    public String fileName;
+    public String method;
+    public int statusCode;
+    public int chunkSize;
+    public long fileLength;
+    public String fileId;
 }
